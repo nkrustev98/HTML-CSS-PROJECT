@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MTB Evo</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="contact_style.css">
+</head>
+<body>
+	<header>
+		<h1>Mountain Bike Evolution</h1>
+	</header>
+	
+	<nav>
+		<h2>Contact</h2>
+		<ul>
+			<li class="li1"><a class="a1" href="home.html">Home</a></li>
+			<li class="li1"><a class="a1" href="history.html">History</a></li>
+			<li class="li1"><a class="a1" href="gallery.html">Gallery</a></li>
+			<li class="li1"><a class="a1" href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<form method="post" action="mailto:n.krustev98@gmail.com">
+			<h3>Rate Us</h3>
+			<div>
+				<label for="name">Last name</label>
+				<input type="text" name="name" id="name" placeholder="last name...">
+			</div>
+			
+			<div>
+				<label for="f_name">First name</label>
+				<input type="text" name="f_name" id="f_name" placeholder="first name...">
+			</div>
+			
+			<div>
+				<label for="city">City</label>
+				<input type="text" name="city" id="city" placeholder="city...">
+			</div>
+			
+			<div>
+				Country
+					<select name="country">
+						<option value="1" selected="selected">Bulgaria</option>
+						<option value="2">Spain</option>
+						<option value="3">Germany</option>
+						<option value="4">Russia</option>
+						<option value="5">France</option>
+						<option value="6">United Kingdom</option>
+						<option value="7">USA</option>
+					</select>
+			</div>
+			
+			<div>
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" placeholder="Email...">
+			</div>
+			
+			<div>
+				Gender
+					<select name="gender">
+						<option value="1" selected="selected">Male</option>
+						<option value="2">Female</option>
+					</select>
+				
+			</div>
+			
+			<div>
+				Rate the page:
+				<label for="1star">1 star</label>
+				<input type="radio" name="rate" id="1star">
+				<label for="2star">2 stars</label>
+				<input type="radio" name="rate" id="2star">
+				<label for="3star">3 stars</label>
+				<input type="radio" name="rate" id="3star">
+				<label for="4star">4 stars</label>
+				<input type="radio" name="rate" id="4star">
+				<label for="5star">5 stars</label>
+				<input type="radio" name="rate" id="5star">
+				
+				
+			</div>
+			
+			<div>
+				<label for="Comments/Questions">Comments/Questions</label>
+				<textarea name="Comments/Questions" id="Comments/Questions">Comments/Questions...</textarea>
+			</div>
+			
+			<div>
+				<label for="I_have_read_and_accept_the_Terms_and_Conditions">I have read the Terms and Conditions</label>
+				<input type="checkbox" name="agreement" id="I_have_read_and_accept_the_Terms_and_Conditions" value="I have read the Terms and Conditions">
+			</div>
+			
+			<div>
+				<input type="submit" value="Send">
+			</div>
+		</form>
+	</main>
+	
+	<footer>
+		All rights reserved.
+	</footer>
+</body>
+</html>
